@@ -31,7 +31,7 @@
   --background-invert: 0%;
   --background-blur: 2px;
   --background-overlay: rgb(0,0,0,0.36);
-  --user-popout-image: url('https://i.pinimg.com/564x/89/ac/67/89ac67de56b0004e9f3622a01c05dc0b.jpg');
+  --user-popout-image: url('https://i.pinimg.com/originals/2d/1a/89/2d1a89d4524e87b72320022991cc8c79.gif');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -42,7 +42,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 2px;
-  --user-modal-image: url('https://i.pinimg.com/564x/89/ac/67/89ac67de56b0004e9f3622a01c05dc0b.jpg');
+  --user-modal-image: url('https://i.pinimg.com/originals/2d/1a/89/2d1a89d4524e87b72320022991cc8c79.gif');
   --user-modal-position: center left;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -53,7 +53,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 2px;
-  --home-icon: url('https://i.pinimg.com/564x/f4/13/a5/f413a59d3fc0dfc587b468f6b72b920b.jpg');
+  --home-icon: url('https://i.pinimg.com/736x/b2/1e/f7/b21ef7b5521842ea44b08868bf1dcaf9.jpg');
   --home-position: center;
   --home-size: 73px;
   --channel-unread: #8BC34A;
