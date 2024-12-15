@@ -29,7 +29,7 @@
   --background-saturation: 100%;
   --background-grayscale: 0%;
   --background-invert: 0%;
-  --background-blur: 0px;
+  --background-blur: 2px;
   --background-overlay: rgb(0,0,0,0.36);
   --user-popout-image: url('https://i.pinimg.com/564x/89/ac/67/89ac67de56b0004e9f3622a01c05dc0b.jpg');
   --user-popout-position: center;
