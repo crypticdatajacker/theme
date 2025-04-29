@@ -1,29 +1,36 @@
 /**
- * @name Spyro
+ * @name ClearVision V7 for BetterDiscord
  * @author ClearVision Team
- * @version 6.3.0
- * @description Highly customizable and beautiful theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
+ * @version 7.0.0
+ * @description Highly customizable theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v7
  * @website https://clearvision.github.io
- * @invite 7pNUC9C
- * @BDEditor Clear Vision
-*/
-
-@import url('https://clearvision.github.io/ClearVision-v6/main.css');
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
-
+ * @invite dHaSxn3
+ */
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+/* SETTINGS */
 :root {
+  /* ACCENT COLORS */
   --main-color: #5FA50F;
   --hover-color: #005503;
   --success-color: #B3D355;
   --danger-color: #CF5700;
-  --url-color: #FFC107;
+  /* STATUS COLORS */
+  --online-color: #4CAF50;
+  --idle-color: #DECA18;
+  --dnd-color: #FF0000;
+  --streaming-color: #662BCA;
+  --offline-color: #8B8989;
+  /* APP BACKGROUND */
+  --background-shading-percent: 100%;
   --background-image: url('https://i.pinimg.com/originals/2d/1a/89/2d1a89d4524e87b72320022991cc8c79.gif');
+  --background-attachment: fixed;
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
-  --background-attachment: fixed;
   --background-brightness: 100%;
   --background-contrast: 100%;
   --background-saturation: 100%;
@@ -31,7 +38,8 @@
   --background-invert: 0%;
   --background-blur: 2px;
   --background-overlay: rgb(0,0,0,0.36);
-  --user-popout-image: url('https://i.pinimg.com/originals/2d/1a/89/2d1a89d4524e87b72320022991cc8c79.gif');
+  /* USER POPOUT BACKGROUND */
+   --user-popout-image: url('https://i.pinimg.com/originals/2d/1a/89/2d1a89d4524e87b72320022991cc8c79.gif');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -42,6 +50,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 2px;
+  /* USER MODAL BACKGROUND */
   --user-modal-image: url('https://i.pinimg.com/originals/2d/1a/89/2d1a89d4524e87b72320022991cc8c79.gif');
   --user-modal-position: center left;
   --user-modal-size: cover;
@@ -53,19 +62,16 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 2px;
+  /* HOME ICON */
   --home-icon: url('https://i.pinimg.com/736x/b1/fc/b8/b1fcb8b70116eb6e09262f8870325ff0.jpg');
   --home-position: center;
   --home-size: 60px;
-  --channel-unread: #8BC34A;
-  --channel-color: rgb(139,173,104,0.56);
-  --muted-color: rgb(255,130,0,0.56);
-  --online-color: #4CAF50;
-  --idle-color: #DECA18;
-  --dnd-color: #FF0000;
-  --streaming-color: #662BCA;
-  --offline-color: #8B8989;
-  --main-font: Cascadia Code;
+  /* FONTS */
+   --main-font: Cascadia Code;
   --code-font: Consolas;
+}
+
+/* ADD ADDITIONAL CSS BELOW HERE */
   --channels-width: 200px;
   --members-width: 170px;
   --backdrop-overlay: rgba(0,0,0,0.8);
@@ -97,8 +103,3 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-phone-visible: block;
-}
-
-/* Any custom CSS below here */
-
-
